@@ -1,0 +1,14 @@
+# Secrets
+.env
+*.key
+
+# Generated test script + artifacts (tái tạo bằng _gen_gpt_test.py)
+btprop_gpt_test.py
+btprop_result_*.json
+run_gpt*.log
+batch8_console.log
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
